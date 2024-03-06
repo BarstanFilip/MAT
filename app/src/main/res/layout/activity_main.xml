@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btnCh1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:text="Chapter1"
+       />
+    <!-- Second Button -->
+    <Button
+        android:id="@+id/btnCh2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnCh1"
+        android:layout_marginTop="8dp"
+        android:text="Chapter2" />
+
+    <!-- Third Button -->
+    <Button
+        android:id="@+id/btnCh3"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnCh2"
+        android:layout_marginTop="8dp"
+        android:text="Chapter3" />
+
+    <!-- Fourth Button -->
+    <Button
+        android:id="@+id/btnCh4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnCh3"
+        android:layout_marginTop="8dp"
+        android:text="Chapter4" />
+
+    <Button
+        android:id="@+id/btnCh5"
+        android:layout_width="113dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/btnCh4"
+        android:layout_marginTop="8dp"
+        android:textSize="14sp"
+        android:text="Calculator" />
+
+
+
+</RelativeLayout>
