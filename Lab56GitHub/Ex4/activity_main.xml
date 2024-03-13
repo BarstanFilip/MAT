@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="-26dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/txtChat1"
+        android:layout_alignTop="@id/txtChat1"
+        android:layout_marginLeft="5dp"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:text="Chat1"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/btnToChat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtChat1"
+        android:layout_alignParentBottom="@+id/txtChat1"
+        android:layout_marginBottom="-65dp"
+        android:layout_marginLeft="300dp"
+        android:text="->chat2" />
+
+    <EditText
+        android:id="@+id/edtTxt1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="148dp"
+        android:ems="10"
+        android:hint="type a message"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/btnSendToChat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="150dp"
+        android:text="Send" />
+
+
+</RelativeLayout>
